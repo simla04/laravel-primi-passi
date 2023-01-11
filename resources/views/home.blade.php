@@ -7,6 +7,26 @@
     <title>Homepage</title>
 </head>
 <body>
-    <h1>Hello World🌍</h1>    
+    <h1>Hello World🌍</h1> 
+    <h2>{{$nome}}</h2>   
+    <nav>
+        <ul>
+            <li>
+                <a href="/">
+                    home
+                </a>
+            </li>
+            <li>
+                <a href="/contact">
+                    contact
+                </a>
+            </li>
+            <li>
+                <a href="/menu/about">
+                    about
+                </a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>

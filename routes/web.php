@@ -30,3 +30,12 @@ Route::get('/contact', function() {
 Route::get('/menu/about', function() {
     return view('menu.about');
 });
+
+
+// nelle parentesi[]-> c'è um array associativo chiave valore
+// Route::get('/', function() {
+
+//     $nome = "Loris";
+
+//     return view('home', ['nome' => $nome]);
+// });
