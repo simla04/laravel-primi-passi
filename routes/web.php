@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+
+// "get " come i axios perchè voglio che la rotta restituisca qualcosa quando l'utente esegue un metodo get nell'url. Come vohlio l'url di ricerca
+// ::get ->metodi statici per restituire un procedimento
+// funzione di call back
+
+Route::get('/contact', function() {
+    return view('contact');
+});
+
+// per entrare nella cartella devo usare la dot notation e non il path
+Route::get('/menu/about', function() {
+    return view('menu.about');
 });
