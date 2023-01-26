@@ -33,9 +33,9 @@ Route::get('/menu/about', function() {
 
 
 // nelle parentesi[]-> c'è um array associativo chiave valore
-// Route::get('/', function() {
+Route::get('/', function() {
 
-//     $nome = "Loris";
+    $nome = "Loris";
 
-//     return view('home', ['nome' => $nome]);
-// });
+    return view('home', ['nome' => $nome]);
+});
